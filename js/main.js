@@ -179,3 +179,70 @@ var swiper = new Swiper(".mySwiper", {
     mobnav.classList.remove("open");
 
   })
+
+  //////////////////////////////suggested/////////////////////////
+
+  var swiper = new Swiper(".suggested", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      
+    },
+    breakpoints: {
+      "@0.00": {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      "@0.75": {
+        slidesPerView: 1,
+        spaceBetween: 20,
+      },
+      "@1.00": {
+        slidesPerView: 2,
+        spaceBetween: 40,
+      },
+      "@1.50": {
+        slidesPerView: 3,
+        spaceBetween: 50,
+      },
+      "@1.70": {
+        slidesPerView: 4,
+        spaceBetween: 50,
+      },
+    },
+    navigation: {
+        nextEl: ".next",
+        prevEl: ".prev",
+      },
+  });
+
+
+
+  /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+    origin:'top',
+    distance:'40px',
+    duration:2000,
+    delay:400,
+  //reset:true,
+  })
+  
+  sr.reveal(`.body_header, .mob_nav, .mySwiper2`)
+  sr.reveal(`.header_img`,{delay: 600,origin: 'bottom'})
+//   sr.reveal(`.numberall`,{delay: 600, duration:2000,origin: 'bottom'})
+//   sr.reveal(`.new__card, .brand__img`,{interval:100})
+//   sr.reveal({origin:'right',delay: 600,})
+//   sr.reveal(`.btn_cours`,{origin:'left',delay: 600,})
+
+
+///////////////////counter////////////////////////
+
+$(document).ready(function(){
+    $('.counter').counterUp({
+      delay: 10,
+      time: 1200
+    });
+  });
