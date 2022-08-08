@@ -12,6 +12,13 @@ body a{
     color: #000;
 }
 
+.poplogin{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.849);
+    border-radius: 50%;
+}
+
 .navbar{
     position: relative;
     width: 100%;
@@ -155,6 +162,15 @@ body a{
 .login .btnlog{
     display: flex;
     gap: 7px;
+}
+.login .btnlog .poplogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login .btnlog .poplogin i{
+    color: #fff;
+    font-size: 30px;
 }
 .login .iconlog{
     display: flex;
@@ -759,7 +775,7 @@ footer{
         /* padding: 20px; */
         background-color: #ffffff;
         width: 100%;
-        height: 100vh;
+        height: 120vh;
         position: fixed;
         z-index: 110;
         overflow-y: visible;
@@ -768,11 +784,11 @@ footer{
         transition: all 1s ease-out;
         pointer-events: all;
         display: block;
-        
+        top: 0;
     }
     .mob_nav.open{
         clip-path: circle(100px at 90% -15%);
-        -webkit-clip-path:circle(1200px at 90% -15%);
+        -webkit-clip-path:circle(1500px at 90% -15%);
         pointer-events: all;
     }
     .mob_nav .logo .bx-game{
@@ -805,7 +821,15 @@ footer{
         height: 45px;
         border-radius: 50%;
         background-color: #E4EAF1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    .img_user i{
+        color: rgba(0, 0, 0, 0.685);
+       
+    }
+
     .mob_nav .menu{
         display: flex;
         flex-direction: column;
