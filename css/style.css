@@ -107,6 +107,13 @@ body a{
     border-radius: 30px;
     font-size: 14px;
 }
+.login .lloginbtn a{
+    color: #fff;
+}
+.login .btn:hover a{
+    color: #fff;
+}
+
 .login .bx-search{
     font-size: 25px;
     display: none;
@@ -376,10 +383,12 @@ body a{
 }
 .img_cours{
     position: relative;
-
+    height: 160px;
+    overflow: hidden;
 }
 .img_cours img{
     width: 100%;
+    position: absolute;
 }
 .img_cours .bxs-heart{
     position: absolute;
@@ -787,6 +796,9 @@ footer{
         margin-bottom: 20px;
         border-radius: 20px;
         
+    }
+    .user_login a{
+        color: #fff;
     }
     .img_user{
         width: 45px;

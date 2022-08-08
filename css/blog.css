@@ -1,0 +1,204 @@
+.heder_sellers{
+    padding: 80px 100px;
+    background-color: #0B1741;
+    color: #fff;
+}
+.heder_sellers h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.heder_sellers a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 5px;
+}
+
+
+.allBlog{
+    margin: 60px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.rightblog{
+    width: 70%;
+    
+}
+.cardblog{
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 60px;
+}
+.imgblog{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 20px 20px 0 0 ;
+    position: relative;
+}
+.imgblog img{
+    width: 100%;
+}
+.textblog{
+    padding: 40px 40px 40px 10px;
+}
+.textblog p{
+    margin-top: 20px;
+}
+.textblog h1{
+    margin-top: 10px;
+}
+
+.readmore{
+    background-color: #F0F3FF;
+    display: inline-block;
+    padding: 14px 30px;
+    border-radius: 30px;
+    color: #67A4FE;
+}
+.readmore:hover{
+    background-color: #6787FE;
+    color: #fff;
+}
+.popblogs{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.popblog{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.popblog i{
+    font-size: 30px;
+    color: #DDDDDD;
+}
+.popimg{
+    background-color: #6787FE;
+    z-index: 33;
+    position: absolute;
+    padding: 18px;
+    border-radius: 30px;
+    left: 15px;
+    bottom: 15px;
+    color: #fff;
+
+}
+
+/* ////////////////leftblog//////////////////////// */
+.leftblog{
+    width: 27%;
+}
+.cardleftblog{
+    padding: 20px 20px 20px 10px;
+    border: 1px solid #DDDDDD;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.cardleftblog h2{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.texttitleblog{
+    width: 59%;
+    height: 100px;
+}
+.texttitleblog a{
+    font-weight: 600;
+}
+.textcardleftblog{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+.imgcardleft{
+    position: relative;
+    width: 40%;
+    overflow: hidden;
+    height: 90px;
+
+}
+.textcardleftblog img{
+    position: absolute;
+    width: 100%;
+}
+.categories{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 10px;
+}
+.categories a{
+    color: #000000b9;
+}
+.popcategories{
+    width: 10px;
+    height: 10px;
+    background-color: #4A6375;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.tags h5{
+    padding: 8px 10px;
+    background-color: #EFEFEF;
+    display: inline-block;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.651);
+    transition: all .4s ease;
+}
+.tags h5:hover{
+    background-color: #6787FE;
+    color: #fff;
+}
+@media (max-width:1200px) {
+    .allBlog{
+        margin: 60px 10px;
+    }
+    .allBlog{
+        flex-direction: column-reverse;
+    }
+    .rightblog{
+        width: 100%;
+        
+    }
+    .leftblog{
+        width: 100%;
+    }
+    .imgcardleft{
+        width: 20%;
+    }
+    .popblogs{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+}
+@media (max-width:760px) {
+    .heder_sellers{
+        padding: 80px 30px;
+    }
+}
+@media (max-width:560px) {
+    .imgblog img{
+        width: 150%;
+    }
+}
+/* /////////////// footer ///////////////// */
+
+
+
+
+.footer{
+    padding: 30px 100px ;
+    background-color: #fff;
+}
+@media (max-width:870px) {
+    .footer{
+        padding: 30px 40px ;
+    }
+}

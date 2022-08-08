@@ -1,0 +1,168 @@
+
+body{
+    background-color: #F2F5F8;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup_card{
+    width: 37%;
+    padding: 60px 60px 30px 60px;
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.coc{
+    margin-top: 110px;
+}
+@media (max-width:1200px) {
+    .signup_card{
+        width: 60%;
+    }
+}
+@media (max-width:800px) {
+    .signup_card{
+        width: 80%;
+    }
+}
+
+.logoCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.logoCard i{
+    font-size: 40px;
+}
+.logenbtn{
+    border: 1px solid #8a8e9834;
+    border-radius: 30px;
+    font-weight: 600;
+    padding: 8px 20px;
+}
+.logenbtn:hover {
+    background-color: #1A43A8;
+    border: 1px solid #1A43A8;
+    border-radius: 30px;
+   
+}
+.logenbtn:hover a{
+    color: #fff;
+}
+.Create_an_account{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.Create_an_account h5{
+    font-weight: 600;
+}
+.Create_an_account i{
+    font-size: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid #8a8e9834;
+    color: #393D48;
+}
+.Create_an_account i:hover{
+    color: #fff;
+    background-color: #1A43A8;
+    border: 1px solid #1A43A8;
+}
+.inpotname_last{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.inpot_cards i{
+    font-size: 26px;
+    color: #8a8e98;
+    margin-right: 15px;
+}
+.inpotname_last .inpott{
+    width: 49%;
+}
+.inpott{
+    display: flex;
+    align-items: center;
+    background-color: #F2F5F8;
+    border-radius: 30px;
+    padding: 3px 0;
+    margin-bottom: 20px;
+    
+}
+input{
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    width: auto;
+    width: 100%;
+}
+@media (max-width:550px) {
+    .signup_card{
+        width: 95%;
+    }
+    .inpotname_last{
+        flex-direction: column;
+    }
+    .inpotname_last .inpott{
+        width: 100%;
+    }
+    .signup_card{
+        padding: 40px 20px 30px 20px;
+    }
+
+}
+.form-check-label{
+    margin-right: 10px;
+}
+.form-check-input{
+    outline: none !important;
+}
+.form-switch{
+    display: flex;
+    align-items: center;
+}
+.btnlogs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.btnlogs h6{
+    font-weight: 600
+}
+.btnlog{
+    background-color: #1A43A8;
+    color: #fff;
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+.btnlog:hover{
+    background-color: #2EDAF4;
+}
+.btnlog a{
+    color: #fff;
+}
+.btgree{
+    color: #8A8E98;
+}
+.btgree a{
+    color: #8A8E98;
+}
+.textlog{
+    margin-top: 15px;
+}
+.textlog a{
+    text-decoration: underline;
+    color: #1A43A8;
+}
